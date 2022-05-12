@@ -1,0 +1,9 @@
+Para poder correr el proyecto se requiere de lo siguiente:
+
+-Xammp en la version 8.2
+en caso de tener contraseña ponerla en la funcion para conectar a la BD.
+-La bd para realizar la importación se encuentra en la carpeta bd.
+- Se necesita el Servidor de aplicaiondes Glassfish v5 o v4
+-Las librerias MySQL JDBC Driver - mysql-connector-java-5.1.23-bin.jar & mysql-connector-java-5.1.23-bin.jar
+---Suerte :) --- ©Sky
+
