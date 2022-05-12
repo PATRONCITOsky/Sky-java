@@ -15,11 +15,16 @@
     </head>
     <body>
         <%@include file="commons/cabecera.jsp" %>
-        <div class="text-center">
-        <h1 class="text-center">Registrado exitosamente</h1>
-        <img src="img/fu.jpg" alt="70" width="170" class="text-center">
-        <a href="logueo.jsp" class="btn btn-outline-dark text-center">  Login</a>
+        <div class="container text-center">
+            
+                <div class="col-sm-12 text-center">
+                    <h1 class="text-center font-weight-bold">Registrado exitosamente</h1>
+                    <a href="logueo.jsp" class="btn btn-outline-dark ">  Login</a>
+                </div>   
+            
         </div>
+
+
         
     </body>
 </html>

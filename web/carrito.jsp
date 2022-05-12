@@ -26,7 +26,7 @@
             <br>
             <div class="row">
                 <c:forEach var="regM" items="${registroBeensP}">
-                    <div  class="col-sm-3">
+                    <div  class="col-sm-4">
                         
                         <div  class="card text-center">
                             <div class="card-header text-center">
@@ -34,8 +34,9 @@
                             </div>
                             <div class="card-body text-center">
                                 <i>Precio: ${regM.getCosto()}</i>
-                                <img src="Cimagen?id=${regM.getId()}" class="img-fluid" width="200" height="180">
-                                
+                                <div>
+                                <img src="Cimagen?id=${regM.getId()}" class="img-fluid" alt="Productos">
+                                </div>
                             </div>
                             <div class="card-footer text-center">
 

@@ -19,7 +19,7 @@
 
         <div class="container">
             
-            <h1 class="text-center">Contáctanos</h1>
+            <h1 class="text-center font-weight-bold" style="color: #33FF9F;">Contáctanos</h1>
                 <form method="POST" action="">
                   <div class="row justify-content-center">  
                     
@@ -56,6 +56,6 @@
                     
             </div>
 
-
+        <%@include file="commons/footer.jsp"%>
 </body>
 </html>

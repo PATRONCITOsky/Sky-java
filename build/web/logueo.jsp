@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <form class="form-sing" action="validarIngreso" method="POST">
                         <div class="form-group text-center" >
-                            <h3>LOGIN</h3>
+                            <h3 class="font-weight-bold">LOGIN</h3>
                             <img src="img/dl.jpg" alt="70" width="170">
                             
                         </div>
@@ -21,12 +21,12 @@
                             <label>Ingreso al sistema</label>
                         </div>
                         <div class="form-group">
-                            <label>Usuario</label>
+                            <label class="font-weight-bold">Usuario</label>
                             <input type="text" name="txtUser" class="form-control">
                         </div>
                         
                         <div class="form-group">
-                            <label>Contraseña</label>
+                            <label class="font-weight-bold">Contraseña</label>
                             <input type="password" name="txtPass" class="form-control">
                         </div>
                         <input type="submit" name="accion"  value="ingresar" class="btn btn-primary btn-block">

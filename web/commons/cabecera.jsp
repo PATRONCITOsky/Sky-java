@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="index.jsp">D-Compras</a>
+  <a class="navbar-brand" href="index.jsp">
+      <img src="img/logos.png" alt="" width="35"/>
+  </a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

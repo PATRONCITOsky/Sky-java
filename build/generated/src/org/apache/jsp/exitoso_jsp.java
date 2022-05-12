@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class contactos_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class exitoso_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -12,10 +12,9 @@ public final class contactos_jsp extends org.apache.jasper.runtime.HttpJspBase
   private static java.util.List<String> _jspx_dependants;
 
   static {
-    _jspx_dependants = new java.util.ArrayList<String>(3);
+    _jspx_dependants = new java.util.ArrayList<String>(2);
     _jspx_dependants.add("/commons/cdn.jsp");
     _jspx_dependants.add("/commons/cabecera.jsp");
-    _jspx_dependants.add("/commons/footer.jsp");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -55,7 +54,6 @@ public final class contactos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
       out.write("        ");
       out.write("<meta charset=\"utf-8\">\n");
       out.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
@@ -83,6 +81,7 @@ public final class contactos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<link href=\"https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,700&display=swap\" rel=\"stylesheet\">");
       out.write("\n");
       out.write("        <link rel=\"stylesheet\" href=\"css/global.css\" type=\"text/css\">\n");
+      out.write("        <title>JSP Page</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        ");
@@ -122,94 +121,19 @@ public final class contactos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</nav>\n");
       out.write("\n");
       out.write("\n");
-      out.write("  \n");
       out.write("\n");
-      out.write("\n");
-      out.write("        <div class=\"container\">\n");
+      out.write("        <div class=\"container text-center\">\n");
       out.write("            \n");
-      out.write("            <h1 class=\"text-center\">Contáctanos</h1>\n");
-      out.write("                <form method=\"POST\" action=\"\">\n");
-      out.write("                  <div class=\"row justify-content-center\">  \n");
-      out.write("                    \n");
-      out.write("                        <div class=\"col-sm-3\">\n");
-      out.write("                            <label class=\"font-weight-bold\">Nombre</label>\n");
-      out.write("                            <input class=\"form-control\" type=\"text\" placeholder=\"Ingrese nombre\" name=\"nombres\">\n");
-      out.write("                        </div>\n");
-      out.write("                        <div class=\"col-sm-3\">\n");
-      out.write("                            <label class=\"font-weight-bold\">Correo Electrónico</label>\n");
-      out.write("                            <input  class=\"form-control\" type=\"email\" placeholder=\"Ingrese el correo\" name=\"correo\" required=\"\">\n");
-      out.write("                        </div>\n");
-      out.write("                    </div> \n");
-      out.write("                    <div class=\"row justify-content-center\">\n");
-      out.write("                            <div class=\"col-sm-6\">\n");
-      out.write("                                <label class=\"font-weight-bold\">Número Celular</label>\n");
-      out.write("                                <input class=\"form-control\" type=\"tel\"  placeholder=\"Ingrese número celular\" name=\"celular\" pattern=\"\\([0-9]{3}\\) [0-9]{3}[ -][0-9]{4}\" title=\"Un número de teléfono válido consiste en un área de código de 3 dígitos entre corchetes, un espacio, los tres primeros dígitos del número, un espacio o guión (-), y cuatro dígitos más\" required>\n");
-      out.write("                            </div>\n");
-      out.write("                    </div>\n");
+      out.write("                <div class=\"col-sm-12 text-center\">\n");
+      out.write("                    <h1 class=\"text-center font-weight-bold\">Registrado exitosamente</h1>\n");
+      out.write("                    <a href=\"logueo.jsp\" class=\"btn btn-outline-dark \">  Login</a>\n");
+      out.write("                </div>   \n");
+      out.write("            \n");
+      out.write("        </div>\n");
       out.write("\n");
       out.write("\n");
-      out.write("                    <div class=\"row justify-content-center\">\n");
-      out.write("                            <div class=\"col-sm-6\">\n");
-      out.write("                                <label class=\"font-weight-bold\">Mensaje</label>\n");
-      out.write("                                <textarea  class=\"form-control\"  placeholder=\"Ingrese mensaje\" name=\"mensaje\" required=\"\"> </textarea>\n");
-      out.write("                            </div>\n");
-      out.write("                    </div>\n");
-      out.write("\n");
-      out.write("                            <br>\n");
-      out.write("                            <div class=\"row justify-content-center\">\n");
-      out.write("                                <button type=\"submit\" name=\"accion\" value=\"insertar\" class=\"btn btn-success\">Enviar</button>&nbsp\n");
-      out.write("                            </div>\n");
-      out.write("                            </form>\n");
-      out.write("                        \n");
-      out.write("                    \n");
-      out.write("            </div>\n");
-      out.write("\n");
-      out.write("        ");
-      out.write("\n");
-      out.write("<div class=\"container-fluid\" id=\"footer\">\n");
-      out.write("<footer class=\"row row-cols-5 py-5 my-5 border-top\" >\n");
-      out.write("    <div class=\"col\">\n");
-      out.write("      <h1>\n");
-      out.write("      <a class=\"bi bi-whatsapp\" href=\"contactos.jsp\" role=\"button\"></a>\n");
-      out.write("      <a class=\"bi bi-facebook\" href=\"https://www.facebook.com/hoover.becerra.98\" role=\"button\"></a>\n");
-      out.write("      <a class=\"bi bi-instagram\" href=\"https://instagram.com/h_2_hb?utm_medium=copy_link\" role=\"button\"></a>\n");
-      out.write("      </h1>\n");
-      out.write("    </div>\n");
-      out.write("\n");
-      out.write("    <div class=\"col\">\n");
-      out.write("\n");
-      out.write("    </div>\n");
-      out.write("\n");
-      out.write("    <div class=\"col\">\n");
-      out.write("      <h5>Más Información</h5>\n");
-      out.write("      <ul class=\"nav flex-column\">\n");
-      out.write("          <li class=\"nav-item mb-2\"><a href=\"index.jsp\" class=\"nav-link p-0 text-muted\">Home</a></li>\n");
-      out.write("          <li class=\"nav-item mb-2\"><a href=\"contactos.jsp\" class=\"nav-link p-0 text-muted\">Contáctanos</a></li>\n");
-      out.write("          <li class=\"nav-item mb-2\"><a href=\"acerca.jsp\" class=\"nav-link p-0 text-muted\">Terminos y Condiciones</a></li>\n");
-      out.write("      </ul>\n");
-      out.write("    </div>\n");
-      out.write("\n");
-      out.write("    <div class=\"col\">\n");
-      out.write("      <h5>Cuidades</h5>\n");
-      out.write("      <ul class=\"nav flex-column\">\n");
-      out.write("        <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Pereira</a></li>\n");
-      out.write("        <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Medellín</a></li>\n");
-      out.write("        <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Barranquilla</a></li>\n");
-      out.write("        <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Bogotá</a></li>\n");
-      out.write("        <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">Manizales</a></li>\n");
-      out.write("      </ul>\n");
-      out.write("    </div>\n");
-      out.write("\n");
-      out.write("    <div class=\"col\">\n");
-      out.write("      <h5>Derechos reservados</h5>\n");
-      out.write("      <ul class=\"nav flex-column\">\n");
-      out.write("        <li class=\"nav-item mb-2\"><a href=\"#\" class=\"nav-link p-0 text-muted\">©HHB</a></li>\n");
-      out.write("      </ul>\n");
-      out.write("    </div>\n");
-      out.write("  </footer>\n");
-      out.write("</div>");
-      out.write("\n");
-      out.write("</body>\n");
+      out.write("        \n");
+      out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

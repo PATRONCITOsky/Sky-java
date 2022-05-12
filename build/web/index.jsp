@@ -10,9 +10,10 @@
     </head>
    
     <body>
-    
+        <div class="grid-block">
         <%@include file="commons/cabecera.jsp"%>
         <%@include file="commons/carrusel.jsp" %>
         <%@include file="commons/footer.jsp"%>
+        </div>
     </body>
 </html>

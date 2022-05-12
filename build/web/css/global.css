@@ -28,12 +28,18 @@
     
 }
 
-body{
-    background-image: url("../img/pl3.jpg");
+.grid-block{
+    
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;  
+    
+}
+
+
+body{
+    background: whitesmoke;
     font-family: 'Roboto Condensed', sans-serif;
 }
 

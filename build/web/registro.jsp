@@ -16,7 +16,7 @@
     <body>
         <%@include file="commons/cabecera.jsp"%>
         <div class="container registro">
-            <h1 class="font-weight-bold">Formulario de registro</h1>
+            <h1 class="font-weight-bold" >Formulario de registro</h1>
             <form method="POST" action="RegistroControl?accion=insertar">
                 <div class="row justify-content-center">
                     <div class="col-sm-4">
