@@ -1,0 +1,13 @@
+SMAP
+footer_jsp.java
+JSP
+*S JSP
+*F
++ 0 cdn.jsp
+commons/cdn.jsp
++ 1 footer.jsp
+commons/footer.jsp
+*L
+1,24:49
+1#1,48:73
+*E

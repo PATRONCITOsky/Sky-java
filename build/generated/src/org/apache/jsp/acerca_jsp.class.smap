@@ -1,0 +1,18 @@
+SMAP
+acerca_jsp.java
+JSP
+*S JSP
+*F
++ 0 acerca.jsp
+acerca.jsp
++ 1 cdn.jsp
+commons/cdn.jsp
++ 2 cabecera.jsp
+commons/cabecera.jsp
+*L
+5,9:50
+1#1,24:59
+13#0,5:83
+1#2,35:88
+17#0,94:122
+*E

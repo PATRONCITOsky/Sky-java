@@ -1,0 +1,43 @@
+#pie
+{
+    min-height: 230px!important;
+    background: #33FF9F;
+    margin-top: 1vh;
+   
+}
+
+#footer{
+    background: white;
+}
+
+.registro.row{
+    margin-top: 10px!important;
+    border-bottom: thin solid #33FF9F!important;
+    padding: 10px;
+    
+}
+
+.registro>h1{
+    text-align: center;
+    color: #33FF9F
+    
+}
+
+.registro label{
+    color: #000;
+    
+}
+
+body{
+    background-image: url("../img/pl3.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.col-sm-3{
+    padding-bottom: 30px;
+}
+
